@@ -32,7 +32,7 @@ const Logo: React.FC = () => {
            fontFamily='Valorant'
            fontWeight="bold"
            ml={3}
-           >Ultimatrum</Text>
+           >UltimatrumJS</Text>
            </LogoBox>
            </a>
            </Link>
