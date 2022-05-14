@@ -1,6 +1,7 @@
 import { Container, Box, Heading } from '@chakra-ui/react'
+import type{ NextPage } from 'next'
 
-const Home = () => {
+const Home: NextPage = () => {
   return (
     <Container>
       <Box borderRadius="lg" bg="yellow" p={3} align="center" mb={6}>
