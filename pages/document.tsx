@@ -3,6 +3,8 @@ import type{ NextPage} from 'next'
 import { Container, Box, Heading, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 
+// @ts-ignore
+
 const document: NextPage = () => {
     return (
         <Container>
