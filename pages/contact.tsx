@@ -3,6 +3,8 @@ import type{ NextPage} from 'next'
 import { Container, Box } from '@chakra-ui/react'
 import ContactUs from '../components/contactus'
 
+// @ts-ignore
+
 const contact: NextPage = () => {
     return (
         <Container>
