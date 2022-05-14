@@ -5,6 +5,8 @@ import NextLink from 'next/link'
 import Logo from './logo'
 import ThemeToggleButton from './theme-toggle-button'
 
+// @ts-ignore
+
 interface Props {
     href: any
     path: any
