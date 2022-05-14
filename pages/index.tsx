@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         Welcome to UltimatrumJS
       </Box>
 
-      <Box flexShrink={0} mt={{base: 4, md: 0}} ml={{md: 6}} align="center">
+      <Box flexShrink={0} mt={{base: 4, md: 0}} ml={{md: 0}} align="center">
              <Image src="/images/logo.png" display="inline-block" alt="logo main" width="200" height="200"/>
         </Box>
 
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
      </Box>
 
       <Box  pt={24} align="center">
-        <footer>Copyright 2022 FirelinkShrine</footer>
+        <footer>© Copyright 2022 FirelinkShrine</footer>
       </Box>
     </Container>
   )
