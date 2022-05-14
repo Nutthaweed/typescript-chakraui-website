@@ -42,7 +42,7 @@ const Navbar:React.FC<Propit> = (props) => {
         zIndex={1}
         {...props}
         >
-   <Container display="flex" maxW="container.md" wrap="wrap" justifyContent="space-between">
+   <Container display="flex" maxW="container.md"  justifyContent="space-between"  p={2} >
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
              <Logo />
@@ -67,7 +67,7 @@ const Navbar:React.FC<Propit> = (props) => {
       </a>
         </Stack>
         
-        <Box flex={1} align="right">
+        <Box flex={1} alignItems="right" pl={24}>
             <ThemeToggleButton />
             <Box ml={2} display={{base: 'inline-block' ,md: 'none'}}>
                 <Menu>
