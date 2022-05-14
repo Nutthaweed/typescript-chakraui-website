@@ -3,11 +3,12 @@ import Head from 'next/head'
 import { Box, Container } from '@chakra-ui/react'
 import Navbar from '../navbar'
 
-interface props {
+interface Props {
     children: any
+    router: any
 }
 
-const Main: React.FC = ({ children, router }) => {
+const Main: React.FC<Props> = ({ children, router }) => {
     return (
       <Box as="main" pb={8}>
           <Head>
