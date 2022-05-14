@@ -5,7 +5,13 @@ import NextLink from 'next/link'
 import Logo from './logo'
 import ThemeToggleButton from './theme-toggle-button'
 
-const LinkItem:React.FC = ({ href, path, children}) => {
+interface Props {
+    href: any
+    path: any
+    children: any
+}
+
+const LinkItem:React.FC<Props> = ({ href, path, children}) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha900')
     return (
@@ -17,7 +23,12 @@ const LinkItem:React.FC = ({ href, path, children}) => {
     )
 }
 
-const Navbar:React.FC = (props) => {
+
+interface Propit {
+    path: any
+}
+
+const Navbar:React.FC<Propit> = (props) => {
     const { path } = props
     return (
         <Box
