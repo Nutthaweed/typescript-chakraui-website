@@ -35,7 +35,7 @@ const fonts = {
 }
 
 const colors = {
-    glassTeal: '#88ccca'
+    glassTeal: '#a855f7'
 }
 
 const config = {
