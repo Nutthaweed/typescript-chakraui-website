@@ -26,11 +26,9 @@ const LinkItem:React.FC<Props> = ({ href, path, children}) => {
 
 interface Propit {
     path: any,
-    flex: number,
-    align: string
 }
 
-const Navbar:React.FC<Propit> = (props: Propit) => {
+const Navbar:React.FC<Propit> = (props) => {
     const { path } = props
     return (
         <Box
@@ -42,7 +40,7 @@ const Navbar:React.FC<Propit> = (props: Propit) => {
         zIndex={1}
         {...props}
         >
-   <Container>
+   <Container display="flex" maxW="container.md" wrap="wrap" justifyContent="space-between">
         <Flex align="center" mr={5}>
           <Heading as="h1" size="lg" letterSpacing={'tighter'}>
              <Logo />
