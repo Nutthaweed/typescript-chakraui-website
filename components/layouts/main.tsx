@@ -16,7 +16,7 @@ const Main: React.FC<Props> = ({ children, router }) => {
             <title>UltimatrumJS</title>
           </Head>
           
-          <Navbar path={router.asPath} />
+          <Navbar {...router.asPath} />
 
           <Container maxW="container.md" pt={14}>
             {children}
