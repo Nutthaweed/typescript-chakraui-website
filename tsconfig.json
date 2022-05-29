@@ -16,6 +16,8 @@
     "incremental": true,
     "noImplicitAny": false,
     "noImplicitThis": false,
+    "noImplicitReturns": false,
+    "noImplicitUseStrict": false
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

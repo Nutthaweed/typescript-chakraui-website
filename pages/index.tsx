@@ -2,6 +2,9 @@ import { Container, Box, Heading, Text } from '@chakra-ui/react'
 import type{ NextPage } from 'next'
 import Image from 'next/image'
 
+// @ts-ignore-error
+
+
 const Home: NextPage = () => {
   return (
     <Container>
