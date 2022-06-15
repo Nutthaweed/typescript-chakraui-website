@@ -67,7 +67,7 @@ const Navbar:React.FC<Propit> = (props) => {
       </a>
         </Stack>
         
-        <Box flex={1} alignItems="right" pl={24}>
+        <Box flex={1} align="right" pl={24}>
             <ThemeToggleButton />
             <Box ml={2} display={{base: 'inline-block' ,md: 'none'}}>
                 <Menu>
